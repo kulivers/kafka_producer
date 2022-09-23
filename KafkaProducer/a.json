@@ -1,0 +1,14 @@
+{
+  "a":"b",
+  "HostConfig": {
+    "Scheme": "https",
+    "Host": "localhost",
+    "Port": 9200
+  },
+  "RequestParameters": {
+    "Index": "test3",
+    "Type": "_doc",
+    "DocId": null
+  },
+  "Data": "{"name" : "newNmaeLALALLALA"}"
+}

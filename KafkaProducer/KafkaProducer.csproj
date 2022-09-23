@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>FastScratchConsole</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Confluent.Kafka" Version="1.9.2" />
+      <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.9" />
+      <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.3" />
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.2.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="System.Web.Http.Common" Version="4.0.20126.16343" />
+    </ItemGroup>
+
+</Project>
